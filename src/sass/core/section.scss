@@ -42,6 +42,12 @@
         background-image: url("../media/section/why.jpg");
         background-repeat: repeat;
     }
+
+    &_commits {
+        background-image: url("../media/section/commits.jpg");
+        background-position: center;
+        background-size: cover;
+    }
 }
 
 
