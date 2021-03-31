@@ -1,36 +1,49 @@
-<section class="section section_face" id="elem1">
-    <div class="section__list-1">
-        <img src="../media/section/list-1.png" alt="">
-    </div>
+<div class="section section_face">
     <div class="container">
         <div class="face">
-            <header class="face__header">
-                <div class="face__logo">intenskin</div>
-                <nav class="face__nav">
-                    <a href="#elem1" class="face__nav-item active">Главная</a>
-                    <a href="#elem2" class="face__nav-item">Результаты</a>
-                    <a href="#elem3" class="face__nav-item">Мнение специалистов</a>
-                    <a href="#elem4" class="face__nav-item">Отзывы</a>
-                    <a href="#elem5" class="face__nav-item">Как заказать</a>
-                </nav>
-            </header>
+            <h2 class="face__title">Наконец-то вы сможете не только нормализовать давление, но и полностью избавиться от гипертонии!</h2>
             <div class="face__body">
-                <div class="face__box">
-                    <h1 class="face__title">Интенсивное омоложение и уход</h1>
-                    <div class="face__list">
-                        <div class="face__list-item"><p>Мгновенно <b>питает</b></p></div>
-                        <div class="face__list-item"><p><b>Удерживает</b> влагу</p></div>
-                        <div class="face__list-item"><p><b>Разглаживает</b> морщины</p></div>
-                        <div class="face__list-item"><p><b>Осветляет</b> пигментные пятна</p></div>
+                <div class="face__info">
+                    <div class="face__info-bonus"><span>Акция!</span></div>
+                    <div class="face__info-body">
+                        <div class="face__info-discount"><span>Успей купить со скидкой 50%</span></div>
+                        <div class="face__info-price">Всего за <span>199 грн.</span></div>
+                        <div class="face__info-speed">До конца акции осталось:</div>
+                        <div class="face__info-time">
+                            <div class="face__info-time-item">
+                                <span>10</span>
+                                <span>Часов</span>
+                            </div>
+                            <div class="face__info-time-item">
+                                <span>57</span>
+                                <span>Минут</span>
+                            </div>
+                            <div class="face__info-time-item">
+                                <span>16</span>
+                                <span>Секунд</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="face__product">
-                    <img src="../media/product.png" alt="">
-                </div>
-                <div class="face__box">
-                    <%- include('form') %>
-                </div>
+                <form class="form">
+                    <div class="form__title"><span>Акция! Скидка 50%!</span> Подробности уточняйте у операторов.</div>
+                    <label class="form__label">
+                        <span>Страна:</span>
+                        <select class="form__field">
+                            <option value="">Украина</option>
+                        </select>
+                    </label>
+                    <label class="form__label">
+                        <span>Фио:</span>
+                        <input type="text" class="form__field">
+                    </label>
+                    <label class="form__label">
+                        <span>Телефон:</span>
+                        <input type="text" class="form__field">
+                    </label>
+                    <button class="form__btn">Оформить заказ</button>
+                </form>
             </div>
         </div>
     </div>
-</section>
+</div>
