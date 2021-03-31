@@ -1,5 +1,9 @@
 .evens__title {
     color: #fffd73;
+
+    &::before {
+        background-image: url("../media/section/bdgreen.png");
+    }
 }
 
 .evens__body {
