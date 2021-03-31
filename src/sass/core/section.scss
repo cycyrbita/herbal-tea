@@ -17,6 +17,10 @@
         background-position: center bottom;
     }
 
+    &_face-bg {
+        background-image: url("../media/section/face-bg.jpg");
+    }
+
     &_evens {
         background-image: url("../media/section/evens.jpg");
         background-size: cover;
@@ -30,6 +34,11 @@
     }
 
     &_why {
+        background-image: url("../media/section/why.jpg");
+        background-repeat: repeat;
+    }
+
+    &_dop {
         background-image: url("../media/section/why.jpg");
         background-repeat: repeat;
     }
@@ -63,6 +72,10 @@
             padding-bottom: 475px;
             background-image: url("../media/section/face-1280.jpg");
         }
+
+        &_face-bg {
+            background-image: url("../media/section/face-bg-1280.jpg");
+        }
     }
 
     .section__title {
@@ -79,6 +92,10 @@
             padding-bottom: 420px;
             background-image: url("../media/section/face-768.jpg");
         }
+
+        &_face-bg {
+            background-image: url("../media/section/face-bg-768.jpg");
+        }
     }
 
     .section__title {
@@ -94,6 +111,10 @@
         &_face {
             padding-bottom: 380px;
             background-image: url("../media/section/face-480.jpg");
+        }
+
+        &_face-bg {
+            background-image: url("../media/section/face-bg-480.jpg");
         }
     }
 
