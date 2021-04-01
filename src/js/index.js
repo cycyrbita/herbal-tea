@@ -8,7 +8,7 @@ $(document).ready(function () {
     Start();
 
     function Start() {
-        var m = 22,
+        var m = 21,
             s = 0;
 
         if (m <= 9) {
@@ -35,8 +35,8 @@ $(document).ready(function () {
                 }
             }
 
-            $('.form__time-count:nth-of-type(2) span:first-child').text(m);
-            $('.form__time-count:last-child span:first-child').text(s);
+            $('.face__info-time-item:nth-of-type(2) span:first-child').text(m);
+            $('.face__info-time-item:last-child span:first-child').text(s);
             timerId = setTimeout(tick, 1000);
         }, 1000);
     }

@@ -18,9 +18,11 @@
     & p {
         font-size: 18px;
         font-family: sans-serif;
+        font-family: "Amazing", serif;
+        font-weight: 400;
 
         & b {
-            font-weight: 700;
+            font-weight: 400;
         }
 
         & + p {

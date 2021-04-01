@@ -28,6 +28,8 @@
     font-family: sans-serif;
     font-size: 18px;
     max-width: 260px;
+    font-family: "Amazing", serif;
+    font-weight: 400;
 }
 
 .plus__footer {
@@ -36,10 +38,11 @@
     p {
         font-size: 29px;
         font-weight: 700;
-        font-style: italic;
         max-width: 780px;
         margin-right: auto;
         margin-left: auto;
+        font-family: "NautilusPompilius", serif;
+        font-weight: 400;
     }
 }
 
@@ -57,6 +60,8 @@
     font-family: sans-serif;
     border-radius: 50px;
     box-shadow: 0px 4px 10px #848484;
+    font-family: "Amazing", serif;
+    font-weight: 500;
 
     &::before {
         position: absolute;

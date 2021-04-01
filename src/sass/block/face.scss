@@ -1,6 +1,6 @@
 
 .face__title {
-    max-width: 770px;
+    max-width: 870px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 60px;
@@ -8,6 +8,8 @@
     font-size: 29px;
     color: #fff;
     text-shadow: 0 2px 3px #000;
+    font-family: "Amazing", serif;
+    font-weight: 400;
 }
 
 .face__body {
@@ -71,6 +73,8 @@
     text-transform: uppercase;
     border: 7px solid #dec246;
     background-color: #388424;
+    font-family: "Amazing", serif;
+    font-weight: 400;
     
     & span {
         display: inline-block;
@@ -92,6 +96,8 @@
     margin-right: -30px;
     margin-left: -30px;
     margin-bottom: 10px;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
 
     & span {
         display: block;
@@ -109,6 +115,8 @@
     color: #fff;
     font-weight: 700;
     margin-bottom: 10px;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
 
     & span {
         color: #e7ffa1;
@@ -123,6 +131,8 @@
     font-weight: 700;
     color: #fff;
     margin-bottom: 10px;
+    font-family: "Montserrat", serif;
+    font-weight: 700;
 }
 
 .face__info-time {
@@ -143,6 +153,8 @@
     background-repeat: no-repeat;
     background-position: center top;
     box-sizing: content-box;
+    font-family: "Montserrat", serif;
+    font-weight: 700;
 
     & + & {
         margin-left: 5px;
@@ -161,6 +173,8 @@
         font-size: 15px;
         text-shadow: 0 2px #000;
         color: #fff;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
     }
 }
 
